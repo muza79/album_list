@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+	border: 0;
+	font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.app {
+  height: 100%;
+  width: 100vw;
+  background: rgb(1,21,33);
+  background-image: linear-gradient(rgba(255,255,255,.2) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255,255,255,.2) 2px, transparent 1px),
+    linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}

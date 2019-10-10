@@ -1,0 +1,10 @@
+.album-list {
+    margin: 0 auto;
+    padding: 1rem 0;
+    max-width: 50%;
+    color: #fff;
+
+    @media (max-width: 800px) {
+        max-width: 90%;
+    }
+}

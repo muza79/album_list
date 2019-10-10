@@ -1,0 +1,10 @@
+# Ignor # 
+
+node_modules/
+dashboard/node_modules
+dashboard/*.idea
+dashboard/*testing
+css/*.map.css
+*.idea/
+coverage/
+package-lock.json
